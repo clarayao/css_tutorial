@@ -1,0 +1,157 @@
+body {
+    background-color: rgb(248, 205, 189);
+}
+/* -----TITLE----- */
+#title-container {
+    /* border: 2px solid tomato; */
+    margin-top: 100px;
+
+    /* height: 20px; */
+}
+#title-container h1 {
+    text-align: center;
+}
+
+#logo {
+    /* background-color: blueviolet; */
+
+    width: 180px;
+    height: 100px;
+    position: fixed;
+    top: 30%;
+}
+
+#logo img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* -----BODY----- */
+#body {
+    width: 75%;
+    margin: auto;
+}
+
+/* -----DESCRIPTION----- */
+/* #description-wrap-container {
+    border: 2px solid tomato;
+
+    height: 50px;
+}
+
+#description-title-container {
+    border: 2px solid lime;
+
+    height: 20px;
+} */
+/* #description-title-container h3 {
+    background-color: lightgray;
+} */
+
+/* #description-container {
+    border: 2px solid blue;
+
+    height: 30px;
+} */
+/* #description-container p {
+    background-color: lightgray;
+} */
+
+/* -----WORK DISPLAY----- */
+#workdisplay-container {
+    /* border: 2px solid tomato; */
+    height: 750px;
+}
+
+/* #workdisplay-title-container {
+    border: 2px solid lime;
+} */
+/* #workdisplay-title-container h3 {
+    background-color: lightgray;
+} */
+
+#work-container {
+    /* border: 2px solid blue;
+    background-color: lightgray; */
+
+    height: 650px;
+    display: grid;
+    grid-template-columns: repeat(5, 220px);
+    /* padding-bottom: 10px;
+    margin-top: 10px; */
+}
+
+.img-container {
+    /* background-color: blueviolet; */
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+/* -----SORTING LISTS----- */
+#sorting-container {
+    /* border: 2px solid tomato; */
+    display: flex;
+}
+
+/* --TERM LISTS-- */
+#term-sort-container {
+    /* border: 2px solid lime; */
+    width: 50%;
+
+    /* height: 30px; */
+}
+
+/* #term-title-container {
+    border: 2px solid blue;
+
+    height: 10px;
+} */
+/* #term-title-container h3 {
+    background-color: lightgray;
+} */
+
+/* #term-container {
+    border: 2px solid blue;
+
+    height: 10px;
+} */
+/* #term-container ul {
+    background-color: lightgray;
+} */
+
+/* --PROJECT LISTS-- */
+#project-sort-container {
+    /* border: 2px solid lime; */
+    width: 50%;
+
+    /* height: 30px; */
+}
+
+/* #project-title-container {
+    border: 2px solid blue;
+
+    height: 10px;
+} */
+/* #project-title-container h3 { */
+    /* background-color: lightgray; */
+/* } */
+
+/* #project-container {
+    border: 2px solid blue;
+    
+    height: 10px;
+} */
+/* #project-container ul {
+    background-color: lightgray;
+} */
+
+/* -----BOTTOM CONTAINER----- */
+#bottom-container {
+    height: 200px;
+}
